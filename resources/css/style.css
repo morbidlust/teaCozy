@@ -2,6 +2,11 @@
   border: 1px solid red;
 }
 
+/* Get rid of default margins */
+h1, h2, h3, h4, h5 {
+  margin: 10px 0px;
+}
+
 body {
   margin: 0px;
   font-family: Helvetica;
@@ -48,29 +53,42 @@ nav span {
   padding-right: 10px;
 }
 
+/* Center all major divs */
+.mission, .month, .locations, .contact {
+  margin: 0 auto;
+}
+
 /* Mission section */
 .mission {
   margin-top: 70px;
   width: 1200px;
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
+  align-items: center;
+  display: flex;
+}
+
+.mission .text {
+  background-color: black;
+  align-items: center;
+  width: 1200px;
 }
 
 /* Tea of the Month */
 .month {
   width: 1000px;
   align-items: center;
+  margin: 60px auto;
 }
 
 .teas {
   display: flex;
-  width: 1200px;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .tea {
-  margin: 0px 15px;
+
 }
 
 .tea img {
@@ -83,6 +101,8 @@ nav span {
   width: 1200px;
   height: 500px;
   background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  align-items: center;  
 }
 
 .sites {
@@ -98,6 +118,10 @@ nav span {
   background-color: black;
 }
 
+.location h3, .location h4 {
+  margin: 20px 0px;
+}
+
 /* Contact */
 .contact {
   height: 200px;
@@ -106,4 +130,5 @@ nav span {
 /* Copyright */
 .copyright {
   text-align: left;
+  margin-left: 20px;
 }
