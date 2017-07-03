@@ -8,9 +8,10 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.5;  /*      */
+  opacity: 0.5;  /* Spec calls for .9 but that isn't close to the image, .5 seems much closer and looks better */
   text-align: center;
   width: 100%;
+  justify-content: center;
 }
 
 header {
@@ -21,6 +22,7 @@ header {
   border-bottom: 1px solid seashell;
   z-index: 10;
   align-items: center;
+  background-color: black;
 }
 
 #logo {
@@ -28,6 +30,7 @@ header {
   flex-grow: 1;
   align-items: center;
   padding-left: 10px;
+  background-color: black;
 }
 
 #logo img {
@@ -43,4 +46,31 @@ nav a {
 nav span {
   padding-left: 20px;
   padding-right: 10px;
+}
+
+.mission {
+  margin-top: 70px;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+.month {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
 }
