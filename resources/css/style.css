@@ -48,6 +48,7 @@ nav span {
   padding-right: 10px;
 }
 
+/* Mission section */
 .mission {
   margin-top: 70px;
   width: 1200px;
@@ -55,22 +56,41 @@ nav span {
   background-image: url("../images/img-mission-background.jpg");
 }
 
+/* Tea of the Month */
 .month {
-  display: flex;
   width: 1000px;
   align-items: center;
 }
 
+.teas {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea {
+  margin: 0px 15px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Locations */
 .locations {
   width: 1200px;
   height: 500px;
   background-image: url("../images/img-locations-background.jpg");
 }
 
+/* Contact */
 .contact {
   height: 200px;
 }
 
+/* Copyright */
 .copyright {
   text-align: left;
 }
