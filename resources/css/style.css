@@ -85,6 +85,19 @@ nav span {
   background-image: url("../images/img-locations-background.jpg");
 }
 
+.sites {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.location {
+  width: 300px;
+  margin: 0px 20px;
+  opacity: 1;
+  background-color: black;
+}
+
 /* Contact */
 .contact {
   height: 200px;
