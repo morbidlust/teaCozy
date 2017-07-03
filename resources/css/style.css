@@ -54,12 +54,12 @@ nav span {
 }
 
 /* Center all major divs */
-.mission, .month, .locations, .contact {
+#mission, #month, #locations, #contact {
   margin: 0 auto;
 }
 
 /* Mission section */
-.mission {
+#mission {
   margin-top: 70px;
   width: 1200px;
   height: 700px;
@@ -68,20 +68,20 @@ nav span {
   display: flex;
 }
 
-.mission .text {
+#mission #text {
   background-color: black;
   align-items: center;
   width: 1200px;
 }
 
 /* Tea of the Month */
-.month {
+#month {
   width: 1000px;
   align-items: center;
   margin: 60px auto;
 }
 
-.teas {
+#teas {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -97,38 +97,37 @@ nav span {
 }
 
 /* Locations */
-.locations {
+#locations {
   width: 1200px;
   height: 500px;
   background-image: url("../images/img-locations-background.jpg");
-  display: flex;
-  align-items: center;  
 }
 
-.sites {
+#sites {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 15px;
 }
 
 .location {
   width: 300px;
   margin: 0px 20px;
-  opacity: 1;
   background-color: black;
 }
 
 .location h3, .location h4 {
   margin: 20px 0px;
+  opacity: 1;
 }
 
 /* Contact */
-.contact {
+#contact {
   height: 200px;
 }
 
 /* Copyright */
-.copyright {
+#copyright {
   text-align: left;
   margin-left: 20px;
 }
