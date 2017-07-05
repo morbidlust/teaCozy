@@ -1,10 +1,9 @@
-* {
-  border: 1px solid red;
-}
+
 
 /* Get rid of default margins */
-h1, h2, h3, h4, h5 {
-  margin: 10px 0px;
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
 }
 
 body {
@@ -13,7 +12,7 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.5;  /* Spec calls for .9 but that isn't close to the image, .5 seems much closer and looks better */
+  opacity: 0.9;
   text-align: center;
   width: 100%;
   justify-content: center;
@@ -60,7 +59,7 @@ nav span {
 
 /* Mission section */
 #mission {
-  margin-top: 70px;
+  padding-top: 70px;
   width: 1200px;
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
@@ -77,23 +76,31 @@ nav span {
 /* Tea of the Month */
 #month {
   width: 1000px;
-  align-items: center;
-  margin: 60px auto;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
 }
 
 #teas {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .tea {
-
+  padding: 5px;
 }
 
 .tea img {
   width: 300px;
   height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.tea span {
+  display: block;
+  padding: 5px;
 }
 
 /* Locations */
@@ -101,24 +108,24 @@ nav span {
   width: 1200px;
   height: 500px;
   background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
 }
 
 #sites {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 15px;
+  margin: auto;
+  padding-top: 5px;
 }
 
 .location {
   width: 300px;
-  margin: 0px 20px;
+  margin: 5px 20px;
   background-color: black;
-}
-
-.location h3, .location h4 {
-  margin: 20px 0px;
   opacity: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Contact */
