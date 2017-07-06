@@ -1,11 +1,12 @@
 
 
-/* Get rid of default margins */
+/* Get rid of default margins and add some padding */
 h2, h3, h4 {
   margin: 0px;
   padding: 10px;
 }
 
+/* Set basic parameters and remove default margings as outlined in spec */
 body {
   margin: 0px;
   font-family: Helvetica;
@@ -19,6 +20,7 @@ body {
   justify-content: center;
 }
 
+/* Define header/logo/nav parameters  */
 header {
   display: flex;
   position: fixed;
@@ -43,14 +45,16 @@ header {
   background-color: black;
 }
 
+/* Override default "a" parameters */
 nav a {
   color: seashell;
-  weight: bold;
 }
 
+/* Spread the nav links out some to match spec */
 nav span {
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: normal;
 }
 
 /* Center all major divs */
